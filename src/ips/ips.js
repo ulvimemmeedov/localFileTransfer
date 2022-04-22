@@ -38,8 +38,8 @@ const v6Adress = nets['Wi-Fi'][0].address;
 const v4Adress = nets['Wi-Fi'][1].address;
 
 const myLocal = getLocalIp();
-const localIpWifi = myLocal['Wi-Fi'].toString();
-const localIpVEthernet = myLocal['vEthernet (WSL)'].toString();
+const localIpWifi = myLocal['Wi-Fi'];
+const localIpVEthernet = myLocal['vEthernet (WSL)'];
 
 module.exports = {
   getLocalIp,
